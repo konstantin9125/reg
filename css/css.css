@@ -1,0 +1,65 @@
+.reg_bg{
+    background:url("../images/input.jpg") repeat;
+    font-size: 0;
+}
+textarea:focus{
+    outline: none;
+    background: lightcyan;
+}
+select:focus{
+    outline: none;
+}
+input:focus{
+    outline: none;
+    background: lightcyan;
+}
+.reg_window{
+    background: rgb(135, 172, 196, 0.8); 
+    width: 300px;
+    padding: 50px;
+    margin: 50px auto;                    
+    text-align: center;
+    border-radius: 20px;
+    border: double lightskyblue;
+    font-size: 2px;
+}
+textarea{
+    background:rgb(208, 238, 248);
+    border-radius: 10px;
+    max-width: 250px;
+    min-height: 100px;
+    min-width: 200px;
+    border: inset;
+}
+select{
+    border-radius: 10px;
+    border: inset;
+    width: 250px;
+    height: 35px;
+    appearance: none;
+    background: url("../images/ok.png")rgb(208, 238, 248) no-repeat right;
+    background-size: 25px 25px;
+}
+textarea:hover{
+    border: outset;
+    background:whitesmoke;
+}
+select:hover{
+    border: outset;
+    background:whitesmoke;
+    background: url("../images/ok.png")rgb(208, 238, 248) no-repeat right;
+    background-size: 25px 25px;
+}
+input:hover{
+    border: outset;
+    background:whitesmoke;
+}
+input{
+    border-radius: 10px;
+    padding: 15px;
+    border: inset;
+    background: rgb(208, 238, 248);
+}
+p{
+    font-size: 15px;
+}
